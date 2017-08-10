@@ -15,12 +15,9 @@ The skill provides a case study to perform this features;
 
 **Plase visit wiki and learn more about Alexa Skill Development and read detailed section for this sample skill. Do it before start using the repo. [eercanayar/alexa-skills-ask-tutorial/wiki/Alexa-Skills-Kit-(ASK)-Development-Tutorial](https://github.com/eercanayar/alexa-skills-ask-tutorial/wiki/Alexa-Skills-Kit-(ASK)-Development-Tutorial)**
 
-**lambda:** Amazon Lambda function of the skill. Can be debugged on Visual Studio Code.
-
-**alexa-skill:** Alexa skill's interaction model. Can be set on Alexa Developer Console. This has a lot of massy code, I know. I've commited this right after I see it works. I'll update it with more re-usable code.
-
-**account-linking-middleware:** Middleware to set thingworx parameters and link Twitter account on Alexa app. Can run on heroku.
-
-**remote-service-client:** The role about the camera was taking photo from it and send to Alexa skill to share on Twitter when requested. Notice that camera isn't on internet. It's accessible from a local IP. This remote service makes all possible. It scans IP ranges to find the current IP of the camera. Then, waits for the service call from thingworx. This C# .NET solution is based on Thingworx SDK.
+* **lambda:** Amazon Lambda function of the skill. Can be debugged on Visual Studio Code.
+* **alexa-skill:** Alexa skill's interaction model. Can be set on Alexa Developer Console. This has a lot of massy code, I know. I've commited this right after I see it works. I'll update it with more re-usable code.
+* **account-linking-middleware:** Middleware to set thingworx parameters and link Twitter account on Alexa app. Can run on heroku.
+* **remote-service-client:** The role about the camera was taking photo from it and send to Alexa skill to share on Twitter when requested. Notice that camera isn't on internet. It's accessible from a local IP. This remote service makes all possible. It scans IP ranges to find the current IP of the camera. Then, waits for the service call from thingworx. This C# .NET solution is based on Thingworx SDK.
 
 *eercan @Accenture Istanbul*
