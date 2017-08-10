@@ -1,0 +1,16 @@
+getParameter how is the {parameter}
+getParameter tell the {parameter}
+serviceMusic {musicAction} music
+serviceMusic music {musicAction}
+serviceArm {armAction} security
+serviceArm security {armAction}
+serviceTurn lights {turnAction}
+serviceTurn {turnAction} lights
+tweetResult tweet it
+tweetResult tweet
+tweetParameter tweet the {parameter}
+tweetParameter share the {parameter}
+tweetParameter share the {parameter} on twitter
+tweetPhoto tweet security cam
+tweetPhoto tweet cam
+tweetPhoto take cam photo

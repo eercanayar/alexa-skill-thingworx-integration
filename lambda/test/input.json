@@ -1,0 +1,25 @@
+{
+  "session": {
+    "sessionId": "SessionId.***",
+    "application": {
+      "applicationId": "amzn1.ask.skill.****"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.***",
+      "accessToken": "***,***,***,***,***,***"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.****",
+    "locale": "en-US",
+    "timestamp": "2017-08-04T13:01:17Z",
+    "intent": {
+      "name": "tweetPhoto",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}

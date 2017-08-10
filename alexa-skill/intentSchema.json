@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "parameter",
+          "type": "PARAMETER_LIST"
+        }
+      ],
+      "intent": "getParameter"
+    },
+    {
+      "slots": [
+        {
+          "name": "musicAction",
+          "type": "MUSIC_ACTION_LIST"
+        }
+      ],
+      "intent": "serviceMusic"
+    },
+    {
+      "slots": [
+        {
+          "name": "armAction",
+          "type": "ARM_ACTION_LIST"
+        }
+      ],
+      "intent": "serviceArm"
+    },
+    {
+      "slots": [
+        {
+          "name": "turnAction",
+          "type": "TURN_ACTION_LIST"
+        }
+      ],
+      "intent": "serviceTurn"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "tweetResult"
+    },
+    {
+      "slots": [
+        {
+          "name": "parameter",
+          "type": "PARAMETER_LIST"
+        }
+      ],
+      "intent": "tweetParameter"
+    },
+    {
+      "intent": "tweetPhoto"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
